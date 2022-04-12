@@ -1,0 +1,58 @@
+//color-variables//
+$white:hsl(0, 0%, 100%);
+$lightGray:hsl(212, 45%, 89%);
+$grayishBlue:hsl(220, 15%, 55%);
+$darkBlue:hsl(218, 44%, 22%);
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+   background-color: $lightGray;
+   font-family: 'Outfit',sans-serif;
+}
+
+#wrapper {
+
+background-color: $white;
+
+margin: auto;
+margin-top: 100px;
+text-align: center;
+
+
+width: 300px;
+height: 475px;
+border-radius: 22px;
+}
+
+img {
+  width: 100%;
+  border-radius: 11px;
+}
+
+#qr-code-image {
+    padding: 16px 16px 0px 16px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: lighten($darkBlue, 6%);
+    padding: 20px 20px 0px 20px;
+}
+
+p {
+    color: lighten($grayishBlue, 15%);
+    padding: 20px 20px 0px 20px;
+    font-weight: 400;
+}
+
+.attribution {
+    margin-top: 50px;
+}
+
